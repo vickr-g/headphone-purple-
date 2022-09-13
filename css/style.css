@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background-color:#76045D;
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main" 
+        "footer";
+
+        grid-template-rows: 100px 1fr 100px;
+}
+
+header{
+    background-color:lightblue;
+    grid-area: header;
+}
+
+main{
+    background-color: pink;
+    grid-area: main;
+
+}
+
+footer{
+background-color: salmon;
+grid-area: footer;
+
+}
