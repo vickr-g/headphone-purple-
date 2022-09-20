@@ -6,6 +6,13 @@
     justify-content: flex-end;
 
 }
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+    list-style: none;
+}
 .social-media__youtube{
     color: #fff;
     height: 3rem;
@@ -15,6 +22,7 @@
     display: grid;
     place-items: center;
 }
+    
 .social-media__twitter{
     color: #fff;
     height: 3rem;

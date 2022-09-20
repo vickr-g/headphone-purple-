@@ -1,11 +1,23 @@
 .info{
     height: 100px;
     width: 200px;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #Fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+.info_value{
+    font-size: .8rem;
+    font-weight: 400
+}
+.info_feature{
+    font-size: .8rem;
+    font-weight: 800;
+}
+.info_number{
+    font-size: .8rem;
+    font-weight: 600;
 }
